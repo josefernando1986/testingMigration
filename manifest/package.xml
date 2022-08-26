@@ -1,36 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>*</members>
+        <members>VCSchedule</members>
+        <members>VCQueueable</members>
+        <members>VCCTIHttpHandler</members>
+        <members>VCCTI</members>
+        <members>VCCTIInterface</members>
+        <members>VCCTIRingCentralStrategy</members>
+        <members>VCCTIDialPadStrategy</members>
+        <members>VCCTIParser</members>
+        <members>VCCTIParserInterface</members>
+        <members>VCCTIRingCentralParser</members>
+        <members>VCCTIDialPadParser</members>
+        <members>VCCall</members>
+        <members>VCCTIService</members>
+        <members>VCECIHttpHandler</members>
+        <members>VCECIParser</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexComponent</name>
+        <members>VCCall__c</members>
+        <members>VCLog__c</members>
+        <members>VCCTISettings__mdt</members>
+        <members>VCExcludedPhoneNumbers__c</members>
+        <name>CustomObject</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTestSuite</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>AuraDefinitionBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>LightningComponentBundle</name>
-    </types>
-    <types>
-        <members>*</members>
-        <name>StaticResource</name>
+        <members>VCCTIs</members>
+        <name>CustomLabel</name>
     </types>
     <version>55.0</version>
 </Package>
