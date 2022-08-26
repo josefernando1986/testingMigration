@@ -12,6 +12,16 @@ public class VCCall {
         this.externalId = Id;
     }
 
+    public static void insertVCCALL(VCCall VCCALL){//vcCall
+        // TODO: 
+        // 1. Verify if the VCCall__c exists before creating it
+        // 2. Add all the data related to the VCCall__c
+        // 3. Generate exceptions if any
+        VCCall__c vcCallObj = new VCCall__c();
+        vcCallObj.VCExternalID__c = VCCALL.externalId;//vcCall
+        System.debug('Test');
+        insert vcCallObj;
+    }
     
     public static void insertVCCallList(List<VCCall> vcCallList){
         // TODO: 
