@@ -8,7 +8,7 @@ public class VCCall {
         // TODO: 
         // 1. Add all the data related to the VCCall__c
         // 2. Generate exceptions if any        
-        this.startTime = startTime;
+        String test1 = 'test1';
         this.externalId = Id;
     }
     
