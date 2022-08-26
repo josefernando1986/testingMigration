@@ -12,7 +12,7 @@ public class VCCall {
         this.externalId = Id;
     }
 
-    public static void insertVCCall(VCCall vcCall){//vcCall
+    public static void insertVCCALL(VCCall VCCALL){//vcCall
         // TODO: 
         // 1. Verify if the VCCall__c exists before creating it
         // 2. Add all the data related to the VCCall__c
