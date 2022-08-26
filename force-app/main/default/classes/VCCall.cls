@@ -8,8 +8,9 @@ public class VCCall {
         // TODO: 
         // 1. Add all the data related to the VCCall__c
         // 2. Generate exceptions if any        
-        String test1 = 'test1';
+        String Prueba1 = 'prueba1';
         this.externalId = Id;
+        String test1 = 'test1';
     }
     
     public static void insertVCCall(VCCall vcCall){//vcCall
