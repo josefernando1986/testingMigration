@@ -4,7 +4,8 @@ public class VCCTI {
     public static final Map<String, VCCTIInterface> ctiMap;
     private VCCTIInterface cti;
     String nombre;
-
+    String test3;
+    
     static{
         List<String> ctiNames = Label.VCCTIs.split(',');
         ctiMap = new Map<String, VCCTIInterface>();
