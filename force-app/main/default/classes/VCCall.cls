@@ -3,15 +3,12 @@ public class VCCall {
     // 1. Add all the fields related to the VCCall__c
     public String startTime{get;set;}
     public String externalId{get;set;}
-    String nombre;
+
 
     public VCCall(String Id, String startTime){
         // TODO: 
         // 1. Add all the data related to the VCCall__c
         // 2. Generate exceptions if any        
-        String Prueba1 = 'prueba1';
-        this.externalId = Id;
-        String test1 = 'test1';
         this.externalId = Id;
     }
     
