@@ -4,14 +4,13 @@ public class VCCall {
     public String startTime{get;set;}
     public String externalId{get;set;}
     String nombre;
-    
+
     public VCCall(String Id, String startTime){
         // TODO: 
         // 1. Add all the data related to the VCCall__c
         // 2. Generate exceptions if any        
-
-        this.externalId = Id;
         String test1 = 'test1';
+        this.externalId = Id;
     }
     
     public static void insertVCCall(VCCall vcCall){//vcCall
