@@ -11,7 +11,7 @@ public class VCCall {
         String Prueba1 = 'prueba1';
         this.externalId = Id;
         String test1 = 'test1';
-        String test3 = 'test3';
+
     }
     
     public static void insertVCCall(VCCall vcCall){//vcCall
