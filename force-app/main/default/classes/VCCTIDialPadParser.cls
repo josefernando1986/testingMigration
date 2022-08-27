@@ -20,13 +20,6 @@ public class VCCTIDialPadParser implements VCCTIParserInterface{
     }
 
     // The type of this method would change depending on the recording format
-    public String getMedia(){
-        String recording = 'Recording';
-        //TODO: get Recording in the right format / update the interface
-        return recording;
-    }
-
-    // The type of this method would change depending on the recording format
     public String getRecording(){
         String recording = 'Recording';
         //TODO: get Recording in the right format / update the interface
