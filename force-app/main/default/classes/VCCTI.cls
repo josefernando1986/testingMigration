@@ -3,8 +3,6 @@ public class VCCTI {
     
     public static final Map<String, VCCTIInterface> ctiMap;
     private VCCTIInterface cti;
-    String nombre;
-    String test5;
     
     static{
         List<String> ctiNames = Label.VCCTIs.split(',');
@@ -30,6 +28,10 @@ public class VCCTI {
     }
 
     public String getName(){
+        return cti.getName();
+    }
+
+    public String getDevName(){
         return cti.getName();
     }
 
