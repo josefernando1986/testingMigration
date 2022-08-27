@@ -39,6 +39,10 @@ public class VCCTI {
         return cti.getName();
     }
 
+    public String getURI(){
+        return cti.getName();
+    }
+
     public List<String> getExcludedPhones(){
         return cti.getExcludedPhones();
     }
