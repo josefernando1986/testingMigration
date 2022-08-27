@@ -4,7 +4,7 @@ public class VCCTI {
     public static final Map<String, VCCTIInterface> ctiMap;
     private VCCTIInterface cti;
     String nombre;
-    String test6;
+    String test5;
     
     static{
         List<String> ctiNames = Label.VCCTIs.split(',');
@@ -30,6 +30,18 @@ public class VCCTI {
     }
 
     public String getName(){
+        return cti.getName();
+    }
+
+    public String getNames(){
+        return cti.getName();
+    }
+
+    public String getDevName(){
+        return cti.getName();
+    }
+
+    public String getURI(){
         return cti.getName();
     }
 
