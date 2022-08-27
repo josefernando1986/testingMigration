@@ -33,6 +33,10 @@ public class VCCTI {
         return cti.getName();
     }
 
+    public String getDevName(){
+        return cti.getName();
+    }
+
     public List<String> getExcludedPhones(){
         return cti.getExcludedPhones();
     }
