@@ -18,7 +18,7 @@ public class VCCall {
         // 2. Add all the data related to the VCCall__c
         // 3. Generate exceptions if any
         VCCall__c vcCallObj = new VCCall__c();
-        vcCallObj.VCExternalID__c = vcCall.externalId;//vcCall
+        //vcCallObj.VCExternalID__c = vcCall.externalId;//vcCall
         insert vcCallObj;
     }
 
