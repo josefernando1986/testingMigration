@@ -2,8 +2,7 @@ public class VCCTI {
     public class VCCTIException extends Exception{}
     
     public static final Map<String, VCCTIInterface> ctiMap;
-    private VCCTIInterface cti;
-    private VCCTIInterface ctiExample;
+    private VCCTIInterface ctiECI;
     
     static{
         List<String> ctiNames = Label.VCCTIs.split(',');
