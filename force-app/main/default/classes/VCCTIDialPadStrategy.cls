@@ -7,10 +7,6 @@ public class VCCTIDialPadStrategy implements VCCTIInterface{
         return 'DialPad';
     }
 
-    public String getTest(){
-        return 'Test';
-    }
-
     public List<String> getExcludedPhones(){
         List<String> numbers = new List<String>{'3052242424','3213232323','3000000011'};
         return numbers;
