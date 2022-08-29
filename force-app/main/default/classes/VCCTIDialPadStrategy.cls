@@ -3,7 +3,7 @@ public class VCCTIDialPadStrategy implements VCCTIInterface{
         return true;
     }
 
-    public String getName(){
+    public String getNames(){
         return 'DialPad';
     }
 
