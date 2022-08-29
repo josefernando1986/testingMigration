@@ -39,6 +39,10 @@ public class VCCTI {
         return cti.getName();
     }
 
+    public String getDescription(){
+        return cti.getDescription();
+    }
+
     public String getURI(){
         return cti.getName();
     }
