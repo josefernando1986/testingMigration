@@ -2,7 +2,7 @@ public class VCCTI {
     public class VCCTIException extends Exception{}
     
     public static final Map<String, VCCTIInterface> ctiMap;
-    private VCCTIInterface cti;
+    private VCCTIInterface ctiProject;
     
     static{
         List<String> ctiNames = Label.VCCTIs.split(',');
@@ -25,6 +25,10 @@ public class VCCTI {
 
     public Boolean isActive(){
         return cti.isActive();
+    }
+
+    public Boolean areMultiple(){
+        return cti.isMultiple();
     }
     
     public String getName(){
