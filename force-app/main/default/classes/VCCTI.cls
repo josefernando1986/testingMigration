@@ -35,6 +35,10 @@ public class VCCTI {
         return cti.getName();
     }
 
+    public String getMultipleNames(){
+        return cti.getName();
+    }
+
     public String getDevName(){
         return cti.getName();
     }
