@@ -2,6 +2,7 @@ public class VCCall {
     // TODO: 
     // 1. Add all the fields related to the VCCall__c
     public String startTime{get;set;}
+    public String externalId{get;set;}
 
 
     public VCCall(String Id, String startTime){
