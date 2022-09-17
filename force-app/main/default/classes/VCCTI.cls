@@ -23,7 +23,7 @@ public class VCCTI {
         cti = ctiMap.get(ctiDevName);
     }
 
-    public Boolean isActive(){
+    public Boolean isTrue(){
         return cti.isActive();
     }
 
