@@ -28,7 +28,7 @@ public class VCCTI {
     }
 
     public Boolean areMultiple(){
-        return cti.isMultiple();
+        return false;
     }
     
     public String getName(){
