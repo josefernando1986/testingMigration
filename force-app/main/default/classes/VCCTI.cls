@@ -2,7 +2,7 @@ public class VCCTI {
     public class VCCTIException extends Exception{}
     
     public static final Map<String, VCCTIInterface> ctiMap;
-    private VCCTIInterface cti;
+    private VCCTIInterface ctiProject;
     
     static{
         List<String> ctiNames = Label.VCCTIs.split(',');
@@ -27,11 +27,27 @@ public class VCCTI {
         System.debug(cti.isActive());
     }
 
+    public Boolean areMultiple(){
+        return cti.isMultiple();
+    }
+    
     public String getName(){
         return cti.getName();
     }
 
+    public String getNames(){
+        return cti.getName();
+    }
+
     public String getDevName(){
+        return cti.getName();
+    }
+
+    public String getDescription(){
+        return cti.getDescription();
+    }
+
+    public String getURI(){
         return cti.getName();
     }
 

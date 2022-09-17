@@ -12,17 +12,17 @@ public class VCCall {
         this.externalId = Id;
     }
 
-    public static void getVCCallMetadata(VCCall VCCALL){//vcCall
+    public static void insertExtraVCCall(VCCall vcCall){//vcCall
         // TODO: 
         // 1. Verify if the VCCall__c exists before creating it
         // 2. Add all the data related to the VCCall__c
         // 3. Generate exceptions if any
         VCCall__c vcCallObj = new VCCall__c();
-        vcCallObj.VCExternalID__c = vcCall.externalId;//vcCall
+        //vcCallObj.VCExternalID__c = vcCall.externalId;//vcCall
         insert vcCallObj;
     }
 
-    public static void insertVCCALL(VCCall VCCALL){//vcCall
+    public static void insertVCCall(VCCall vcCall){//vcCall
         // TODO: 
         // 1. Verify if the VCCall__c exists before creating it
         // 2. Add all the data related to the VCCall__c
