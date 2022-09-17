@@ -28,9 +28,9 @@ public class VCCTI {
         return true;
     }
 
-    public Boolean areMultiple(){
-        return cti.isMultiple();
-    }
+    // public Boolean areMultiple(){
+    //     return cti.isMultiple();
+    // }
     
     public String getName(){
         return cti.getName();
