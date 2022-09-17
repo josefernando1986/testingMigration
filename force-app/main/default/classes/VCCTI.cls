@@ -23,14 +23,13 @@ public class VCCTI {
         cti = ctiMap.get(ctiDevName);
     }
 
-    public Boolean isTrue(){
-        //return cti.isActive();
-        return true;
+    public static void isActive(){
+        System.debug(cti.isActive());
     }
 
-    // public Boolean areMultiple(){
-    //     return cti.isMultiple();
-    // }
+    public Boolean areMultiple(){
+        return cti.isMultiple();
+    }
     
     public String getName(){
         return cti.getName();
