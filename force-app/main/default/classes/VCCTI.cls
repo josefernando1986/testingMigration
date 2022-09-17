@@ -24,7 +24,8 @@ public class VCCTI {
     }
 
     public Boolean isTrue(){
-        return cti.isActive();
+        //return cti.isActive();
+        return true;
     }
 
     public Boolean areMultiple(){
