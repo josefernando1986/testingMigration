@@ -23,7 +23,11 @@ public class VCCTI {
         cti = ctiMap.get(ctiDevName);
     }
 
+<<<<<<< HEAD
     public static void isActive(){
+=======
+    public static void (){
+>>>>>>> ESC-12
         System.debug(cti.isActive());
     }
 
